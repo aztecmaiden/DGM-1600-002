@@ -17,7 +17,7 @@ public class GuesserScript : MonoBehaviour {
 
 
         //Is the value GUESS
-        print("Is the number 500?");
+        print("Is the number " + guess + "?");
         //Instructions -Push these buttons
         print("Up arrow for higher, Down arrow for lower, Enter for correct.");
       
@@ -26,6 +26,20 @@ public class GuesserScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Update () {
-       
-	}
+       if (Input.GetKeyDown(KeyCode.UpArrow)){
+            min = guess;
+            guess = (min + max) / 2;
+            print("Is the number " + guess + "?");
+        }
+
+
+        //Up arrow
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            max = guess;
+            guess = (min + max) * 2;
+            print("Is the number " + guess + "?");
+        }
+        //enter button
+    }
 }
