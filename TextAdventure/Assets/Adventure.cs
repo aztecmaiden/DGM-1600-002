@@ -7,7 +7,7 @@ public class Adventure : MonoBehaviour {
 
 
 
-    public enum States { room, window, familyRoom, bed, sleep, mourning, win, lose};
+    public enum States { room, window, familyRoom, bed, sleep, mourning, investigate,talkFamily, reaper, win, lose};
     public States currentState;
     public Text textObject;
     public Text titleObject;
@@ -86,17 +86,50 @@ public class Adventure : MonoBehaviour {
                 "Press S to sleep or C to go back to room ";
             if (Input.GetKeyDown(KeyCode.C)) { currentState = States.room; }
         }
-    private void Mourning()*************
+    private void Mourning()
     {
         textObject.text = "You walk into the family room. \n" +
-               "Everyone of your relatives are sitting around \n" +
+               "Every one of your relatives are sitting around \n" +
+               "Each of them weeping. \n" +
 
-               "Should you go to sleep in the bed or actually accomplish something? \n" +
-
-               "Press S to sleep or C to go back to room ";
-        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.room; }
+               "Should you investigate (I) or talk to a family member (T)? ";
+        if (Input.GetKeyDown(KeyCode.I)) { currentState = States.investigate; }
+        if (Input.GetKeyDown(KeyCode.T)) { currentState = States.talkFamily; }
     }
-        private void lose()
+    private void Investigate()
+    {
+        textObject.text = "Looking around you notice that your picture is EVERYWHERE. \n" +
+               "And everyone is wearing black \n" +
+               "Each of them weeping and wearing black. \n" +
+
+               "No one has noticed you except for one person. \n" +
+
+               "Approach the Stranger (R) ";
+        if (Input.GetKeyDown(KeyCode.R)) { currentState = States.reaper; }
+    }
+    private void talkFamily()
+    {
+        textObject.text = "No one looks at you. \n" +
+                    "You even wave your hand in Gram Gram's face.\n" +
+               " Something you would NEVER do, but nothing. \n" +
+
+               "You're about to give up hope when a stranger in the corner notices you. \n" +
+
+               "Approach the Stranger (R)";
+        if (Input.GetKeyDown(KeyCode.R)) { currentState = States.reaper; }
+    }
+    private void Reaper()***********************
+    {
+        textObject.text = "Looking around you notice that your picture is EVERYWHERE. \n" +
+               "And everyone is wearing black \n" +
+               "Each of them weeping and wearing black. \n" +
+
+               "No one has noticed you except for one person. \n" +
+
+               "Should you investigate (I) or talk to a family member (T)? ";
+        if (Input.GetKeyDown(KeyCode.I)) { currentState = States.investigate; }
+    }
+    private void lose()
     {
         textObject.text = "You Died but then again can Ghosts even die?/n" +
 
