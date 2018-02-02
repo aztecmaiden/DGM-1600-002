@@ -118,15 +118,16 @@ public class Adventure : MonoBehaviour {
                "Approach the Stranger (R)";
         if (Input.GetKeyDown(KeyCode.R)) { currentState = States.reaper; }
     }
-    private void Reaper()***********************
+    private void Reaper()
     {
-        textObject.text = "Looking around you notice that your picture is EVERYWHERE. \n" +
-               "And everyone is wearing black \n" +
-               "Each of them weeping and wearing black. \n" +
+        textObject.text = "A skeletal figure wearing a black hood?! \n" +
+               "Jiminy Jaminy! It's the Grim Reaper. \n" +
+               "Each of them weeping and wearing black.  \n" +
 
-               "No one has noticed you except for one person. \n" +
+               "Realizing that you're dead, emotion fills you up. \n" +
 
-               "Should you investigate (I) or talk to a family member (T)? ";
+               "What do you do with all this emotion? \n " +
+               "Get in a fist fight with the grim reaper(G) or have an emotional talk with them (E)";
         if (Input.GetKeyDown(KeyCode.I)) { currentState = States.investigate; }
     }
     private void lose()
