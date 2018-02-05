@@ -7,7 +7,7 @@ public class Adventure : MonoBehaviour {
 
 
 
-    public enum States { room, window, familyRoom, bed, sleep, mourning, investigate,talkFamily, reaper, win, lose};
+    public enum States { room, window, familyRoom, bed, sleep, mourning, investigate,talkFamily, reaper, fightReaper, emotionalMoment, win, lose};
     public States currentState;
     public Text textObject;
     public Text titleObject;
@@ -128,8 +128,23 @@ public class Adventure : MonoBehaviour {
 
                "What do you do with all this emotion? \n " +
                "Get in a fist fight with the grim reaper(G) or have an emotional talk with them (E)";
-        if (Input.GetKeyDown(KeyCode.I)) { currentState = States.investigate; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.fightReaper; }
+        if (Input.GetKeyDown(KeyCode.E)) { currentState = States.emotionalMoment; }
     }
+    private void FightReaper()
+    {
+    textObject.text = "Filled with anger and rage you rush at him, \n" +
+           "with your fists raised ready for a brawl. \n" +
+           "Each of them weeping and wearing black.  \n" +
+
+           "Realizing that you're dead, emotion fills you up. \n" +
+
+           "What do you do with all this emotion? \n " +
+           "Get in a fist fight with the grim reaper(G) or have an emotional talk with them (E)";
+    if (Input.GetKeyDown(KeyCode.L)) { currentState = States.lose; }
+    }
+
+
     private void lose()
     {
         textObject.text = "You Died but then again can Ghosts even die?/n" +
