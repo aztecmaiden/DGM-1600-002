@@ -11,10 +11,9 @@ public class Health : MonoBehaviour
         health--;
 
         //if our health gets to zero 
-        if (health <= 0) ;
-        {
-            Destroy(gameObject);
-        }
+        if (health <= 0)
+          Destroy(gameObject);
+        
         //then destroy this object
         
     }
