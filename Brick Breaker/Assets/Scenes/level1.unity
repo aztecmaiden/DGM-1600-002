@@ -645,11 +645,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4238603838762778, guid: 93553e5a6ae44544e983471a3f162426, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.8
+      value: -1.18
       objectReference: {fileID: 0}
     - target: {fileID: 4238603838762778, guid: 93553e5a6ae44544e983471a3f162426, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 4238603838762778, guid: 93553e5a6ae44544e983471a3f162426, type: 2}
       propertyPath: m_LocalPosition.z
@@ -690,9 +690,46 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.4683808
       objectReference: {fileID: 0}
+    - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
+        type: 2}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
+        type: 2}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 93553e5a6ae44544e983471a3f162426, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1660001403 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1109072740903390, guid: 93553e5a6ae44544e983471a3f162426,
+    type: 2}
+  m_PrefabInternal: {fileID: 1531478187}
+--- !u!114 &1660001405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1660001403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5d803420d504a419b141a73b39de73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: f60294ebbab4967438cd632c49883a26, type: 3}
 --- !u!4 &1667968287 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4027919784787658, guid: c31c81740382017449a0b32e4f79527c,
@@ -939,6 +976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb06cc90d4d41e4097520484543fb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPlay: 0
 --- !u!1001 &2007303515
 Prefab:
   m_ObjectHideFlags: 0
