@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: Restart
 --- !u!222 &773435505
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.3897059, g: 1, b: 0.7222109, a: 1}
-    m_HighlightedColor: {r: 0.41630623, g: 0.7352941, b: 0.5900996, a: 1}
+    m_HighlightedColor: {r: 0.21956097, g: 0.9632353, b: 0.40932602, a: 1}
     m_PressedColor: {r: 0.34493947, g: 0.74783725, b: 0.85294116, a: 1}
     m_DisabledColor: {r: 0.9705882, g: 0.6637111, b: 0.6637111, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -605,8 +605,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114882674178986936, guid: ab37fb53e5a6ce148a7145167a74050b,
-          type: 2}
+      - m_Target: {fileID: 1948264034}
         m_MethodName: LoadLevel
         m_Mode: 5
         m_Arguments:
@@ -614,7 +613,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: level1
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -719,7 +718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BRICK BREAKER!
+  m_Text: Game Over
 --- !u!222 &1369631898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -844,6 +843,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3dc97224ca0f924387085be86561be7, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1948264034 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114882674178986936, guid: ab37fb53e5a6ce148a7145167a74050b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1275363873}
+  m_Script: {fileID: 11500000, guid: c013e429e124f1147bb04cfd43979f15, type: 3}
 --- !u!1 &2022650910
 GameObject:
   m_ObjectHideFlags: 0

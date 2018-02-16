@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212503131769114230}
   - component: {fileID: 58573463021872254}
   - component: {fileID: 50243338791091178}
+  - component: {fileID: 114827514854474876}
   m_Layer: 0
   m_Name: bricks,ball(1)_1
   m_TagString: Untagged
@@ -51,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1999736506572156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 5.8, z: 0}
+  m_LocalPosition: {x: -1.18, y: 1.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4617172704879074}
@@ -84,7 +85,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 2d582ba2feb835c4cacb4a8c893163c6, type: 2}
   m_Interpolate: 0
@@ -106,6 +107,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.23076923
+--- !u!114 &114827514854474876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109072740903390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5d803420d504a419b141a73b39de73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: f60294ebbab4967438cd632c49883a26, type: 3}
 --- !u!212 &212503131769114230
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -139,7 +152,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 7bd5dc8153adf0046872c95ab941f02e, type: 3}
-  m_Color: {r: 0.43382353, g: 0.27751946, b: 0.34543085, a: 1}
+  m_Color: {r: 0.58823526, g: 0.37629756, b: 0.4683808, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
