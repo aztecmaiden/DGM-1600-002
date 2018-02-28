@@ -1,0 +1,943 @@
+fileFormatVersion: 2
+guid: b513a11f36dc0ef4498ff1317ad60a24
+timeCreated: 1519836762
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RedShirt_0
+    21300002: RedShirt_1
+    21300004: RedShirt_2
+    21300006: RedShirt_3
+    21300008: RedShirt_4
+    21300010: RedShirt_5
+    21300012: RedShirt_6
+    21300014: RedShirt_7
+    21300016: RedShirt_8
+    21300018: RedShirt_9
+    21300020: RedShirt_10
+    21300022: RedShirt_11
+    21300024: RedShirt_12
+    21300026: RedShirt_13
+    21300028: RedShirt_14
+    21300030: RedShirt_15
+    21300032: RedShirt_16
+    21300034: RedShirt_17
+    21300036: RedShirt_18
+    21300038: RedShirt_19
+    21300040: RedShirt_20
+    21300042: RedShirt_21
+    21300044: RedShirt_22
+    21300046: RedShirt_23
+    21300048: RedShirt_24
+    21300050: RedShirt_25
+    21300052: RedShirt_26
+    21300054: RedShirt_27
+    21300056: RedShirt_28
+    21300058: RedShirt_29
+    21300060: RedShirt_30
+    21300062: RedShirt_31
+    21300064: RedShirt_32
+    21300066: RedShirt_33
+    21300068: RedShirt_34
+    21300070: RedShirt_35
+    21300072: RedShirt_36
+    21300074: RedShirt_37
+    21300076: RedShirt_38
+    21300078: RedShirt_39
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedShirt_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 113
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7.5}
+        - {x: -6.5, y: 5.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: 6.5}
+        - {x: 5.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7.5}
+        - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 3.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 114
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7}
+        - {x: -6.5, y: 6}
+        - {x: -6.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 5.5, y: -1}
+        - {x: 5.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 112
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7.5}
+        - {x: -6, y: 6.5}
+        - {x: -6, y: -7.5}
+        - {x: 0, y: -7.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 3.5}
+        - {x: 4, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 3}
+        - {x: 5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 113
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7.5}
+        - {x: -6, y: 6.5}
+        - {x: -6, y: -6.5}
+        - {x: -3, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 6, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 113
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7.5}
+        - {x: -6.5, y: 6.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 113
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 7.5}
+        - {x: -6.5, y: 3.5}
+        - {x: -6.5, y: -6.5}
+        - {x: -2.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: 4.5}
+        - {x: 4.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7}
+        - {x: -6, y: 6}
+        - {x: -6, y: -5}
+        - {x: -5, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 98
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -6.5, y: -7.5}
+        - {x: 4.5, y: -7.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 6.5, y: -4.5}
+        - {x: 6.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 98
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 8}
+        - {x: -6.5, y: 5}
+        - {x: -6.5, y: -8}
+        - {x: 6.5, y: -8}
+        - {x: 6.5, y: 5}
+        - {x: 4.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 97
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 8}
+        - {x: -6.5, y: 7}
+        - {x: -6.5, y: -6}
+        - {x: -5.5, y: -8}
+        - {x: 3.5, y: -8}
+        - {x: 6.5, y: -7}
+        - {x: 6.5, y: 7}
+        - {x: 3.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 97
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 8}
+        - {x: -5.5, y: 5}
+        - {x: -5.5, y: -5}
+        - {x: -4.5, y: -7}
+        - {x: -3.5, y: -8}
+        - {x: 5.5, y: -8}
+        - {x: 5.5, y: 7}
+        - {x: 3.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 98
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7.5}
+        - {x: -5.5, y: 3.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 4.5, y: -7.5}
+        - {x: 5.5, y: 0.5}
+        - {x: 5.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 98
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -4, y: 5.5}
+        - {x: -5, y: 3.5}
+        - {x: -5, y: -3.5}
+        - {x: -3, y: -7.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 97
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 8}
+        - {x: -6, y: 5}
+        - {x: -6, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 6}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 83
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 7}
+        - {x: -4.5, y: 7}
+        - {x: -4.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 4.5, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 84
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7}
+        - {x: -4.5, y: -6}
+        - {x: -3.5, y: -7}
+        - {x: 2.5, y: -7}
+        - {x: 3.5, y: -6}
+        - {x: 3.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 84
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 6.5}
+        - {x: -4.5, y: -7.5}
+        - {x: 4.5, y: -7.5}
+        - {x: 4.5, y: 5.5}
+        - {x: 2.5, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 83
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7}
+        - {x: -6.5, y: 5}
+        - {x: -6.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 6.5, y: -4}
+        - {x: 6.5, y: 4}
+        - {x: 3.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 83
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6.5}
+        - {x: -7, y: 1.5}
+        - {x: -7, y: -6.5}
+        - {x: 4, y: -6.5}
+        - {x: 4, y: -5.5}
+        - {x: 5, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7}
+        - {x: -4.5, y: -5}
+        - {x: -2.5, y: -7}
+        - {x: 3.5, y: -7}
+        - {x: 4.5, y: -6}
+        - {x: 4.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_22
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 83
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 7}
+        - {x: -4, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 83
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7}
+        - {x: -6.5, y: 4}
+        - {x: -6.5, y: -7}
+        - {x: 3.5, y: -7}
+        - {x: 4.5, y: -4}
+        - {x: 4.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7.5}
+        - {x: -6, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 6, y: 6.5}
+        - {x: 4, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 69
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7.5}
+        - {x: -6, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 6, y: -0.5}
+        - {x: 3, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 7.5}
+        - {x: -4, y: 5.5}
+        - {x: -4, y: -7.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 68
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 7}
+        - {x: -5, y: -6}
+        - {x: -3, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_28
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 68
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7}
+        - {x: -6, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 69
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7}
+        - {x: -5.5, y: -7}
+        - {x: 5.5, y: -7}
+        - {x: 5.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_30
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7}
+        - {x: -6, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -6}
+        - {x: -5, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 53
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7.5}
+        - {x: -6, y: -7.5}
+        - {x: 6, y: -7.5}
+        - {x: 6, y: 5.5}
+        - {x: 3, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 53
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 7.5}
+        - {x: -5.5, y: 7.5}
+        - {x: -5.5, y: -7.5}
+        - {x: 2.5, y: -7.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 4.5, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 52
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7.5}
+        - {x: -5.5, y: -6.5}
+        - {x: -4.5, y: -7.5}
+        - {x: 5.5, y: -7.5}
+        - {x: 5.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 52
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7.5}
+        - {x: -6, y: -6.5}
+        - {x: -3, y: -7.5}
+        - {x: 3, y: -7.5}
+        - {x: 6, y: -6.5}
+        - {x: 6, y: 3.5}
+        - {x: 4, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_36
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 51
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -6}
+        - {x: -1, y: -7}
+        - {x: 5, y: -6}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 51
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8.5}
+        - {x: -5, y: -7.5}
+        - {x: 3, y: -7.5}
+        - {x: 5, y: -5.5}
+        - {x: 5, y: 5.5}
+        - {x: 4, y: 8.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_38
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 53
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7}
+        - {x: -4.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 4.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 54
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 7}
+        - {x: -4.5, y: -7}
+        - {x: 4.5, y: -7}
+        - {x: 4.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
