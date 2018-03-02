@@ -5,6 +5,12 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     public AudioClip hitSound;
+    public Vector2 startVector;
+
+    private void Start()
+    {
+        GetComponent.<rigidbody2D >();
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
    

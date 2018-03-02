@@ -79,6 +79,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  sprite:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!212 &212793241269018808
 SpriteRenderer:
   m_ObjectHideFlags: 1

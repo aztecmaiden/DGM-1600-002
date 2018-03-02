@@ -6,16 +6,19 @@ public class Health : MonoBehaviour
 {
 
     public int health;
+    public Sprite[] sprite;
 
     public void Awake()
     {
         GameManager.brickCount++;
         print(GameManager.brickCount);
+        GetComponent<SpriteRenderer>().sprite = sprite[health];
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         health--;
+        GetComponent<SpriteRenderer>().sprite = sprite[health];
 
         //if our health gets to zero 
         if (health <= 0)
