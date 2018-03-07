@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b513a11f36dc0ef4498ff1317ad60a24
-timeCreated: 1519836762
+timeCreated: 1520441320
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -20,14 +20,14 @@ TextureImporter:
     21300026: RedShirt_13
     21300028: RedShirt_14
     21300030: RedShirt_15
-    21300032: RedShirt_16
-    21300034: RedShirt_17
-    21300036: RedShirt_18
-    21300038: RedShirt_19
-    21300040: RedShirt_20
-    21300042: RedShirt_21
-    21300044: RedShirt_22
-    21300046: RedShirt_23
+    21300032: RedSide_01
+    21300034: RedSide_02
+    21300036: RedSide_03
+    21300038: RedSide_04
+    21300040: RedSide_05
+    21300042: RedSide_06
+    21300044: RedSide_07
+    21300046: RedSide_08
     21300048: RedShirt_24
     21300050: RedShirt_25
     21300052: RedShirt_26
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -150,12 +150,12 @@ TextureImporter:
       name: RedShirt_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 18
         y: 113
         width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7.5}
@@ -175,7 +175,7 @@ TextureImporter:
         width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7.5}
@@ -195,7 +195,7 @@ TextureImporter:
         width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7}
@@ -210,12 +210,12 @@ TextureImporter:
       name: RedShirt_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 112
-        width: 12
+        x: 48
+        y: 113
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 7.5}
@@ -231,12 +231,12 @@ TextureImporter:
       name: RedShirt_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 113
-        width: 14
+        x: 63
+        y: 114
+        width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 7}
@@ -251,12 +251,12 @@ TextureImporter:
       name: RedShirt_5
       rect:
         serializedVersion: 2
-        x: 77
+        x: 78
         y: 113
-        width: 12
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 7.5}
@@ -271,12 +271,12 @@ TextureImporter:
       name: RedShirt_6
       rect:
         serializedVersion: 2
-        x: 90
+        x: 93
         y: 113
-        width: 13
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7.5}
@@ -290,12 +290,12 @@ TextureImporter:
       name: RedShirt_7
       rect:
         serializedVersion: 2
-        x: 105
+        x: 108
         y: 113
-        width: 13
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -3.5, y: 7.5}
@@ -311,12 +311,12 @@ TextureImporter:
       name: RedShirt_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 98
-        width: 12
+        x: 3
+        y: 99
+        width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 7}
@@ -331,12 +331,12 @@ TextureImporter:
       name: RedShirt_9
       rect:
         serializedVersion: 2
-        x: 16
+        x: 18
         y: 98
-        width: 13
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7.5}
@@ -352,12 +352,12 @@ TextureImporter:
       name: RedShirt_10
       rect:
         serializedVersion: 2
-        x: 31
-        y: 98
+        x: 33
+        y: 99
         width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 8}
@@ -372,12 +372,12 @@ TextureImporter:
       name: RedShirt_11
       rect:
         serializedVersion: 2
-        x: 45
-        y: 97
-        width: 13
-        height: 16
+        x: 48
+        y: 98
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 8}
@@ -394,12 +394,12 @@ TextureImporter:
       name: RedShirt_12
       rect:
         serializedVersion: 2
-        x: 61
-        y: 97
-        width: 11
-        height: 16
+        x: 62
+        y: 98
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -3.5, y: 8}
@@ -418,10 +418,10 @@ TextureImporter:
         serializedVersion: 2
         x: 77
         y: 98
-        width: 11
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7.5}
@@ -436,12 +436,12 @@ TextureImporter:
       name: RedShirt_14
       rect:
         serializedVersion: 2
-        x: 92
+        x: 93
         y: 98
-        width: 10
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -2, y: 7.5}
@@ -457,12 +457,12 @@ TextureImporter:
       name: RedShirt_15
       rect:
         serializedVersion: 2
-        x: 106
-        y: 97
-        width: 12
-        height: 16
+        x: 108
+        y: 98
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4, y: 8}
@@ -474,15 +474,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_16
+      name: RedSide_01
       rect:
         serializedVersion: 2
         x: 3
-        y: 83
+        y: 84
         width: 9
-        height: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 3.5, y: 7}
@@ -493,15 +493,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_17
+      name: RedSide_02
       rect:
         serializedVersion: 2
-        x: 19
+        x: 18
         y: 84
         width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7}
@@ -513,7 +513,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_18
+      name: RedSide_03
       rect:
         serializedVersion: 2
         x: 33
@@ -521,7 +521,7 @@ TextureImporter:
         width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 6.5}
@@ -532,15 +532,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_19
+      name: RedSide_04
       rect:
         serializedVersion: 2
-        x: 46
+        x: 48
         y: 83
-        width: 13
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7}
@@ -553,15 +553,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_20
+      name: RedSide_05
       rect:
         serializedVersion: 2
-        x: 60
+        x: 62
         y: 83
-        width: 14
-        height: 13
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 6.5}
@@ -573,15 +573,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_21
+      name: RedSide_06
       rect:
         serializedVersion: 2
         x: 78
-        y: 84
+        y: 83
         width: 9
-        height: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7}
@@ -593,15 +593,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_22
+      name: RedSide_07
       rect:
         serializedVersion: 2
-        x: 91
+        x: 93
         y: 83
-        width: 12
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4, y: 7}
@@ -612,15 +612,15 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_23
+      name: RedSide_08
       rect:
         serializedVersion: 2
-        x: 106
+        x: 108
         y: 83
-        width: 13
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7}
@@ -635,12 +635,12 @@ TextureImporter:
       name: RedShirt_24
       rect:
         serializedVersion: 2
-        x: 1
-        y: 68
-        width: 12
+        x: 3
+        y: 69
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7.5}
@@ -656,10 +656,10 @@ TextureImporter:
         serializedVersion: 2
         x: 18
         y: 69
-        width: 12
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7.5}
@@ -673,12 +673,12 @@ TextureImporter:
       name: RedShirt_26
       rect:
         serializedVersion: 2
-        x: 32
-        y: 68
-        width: 10
+        x: 33
+        y: 69
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -3, y: 7.5}
@@ -692,12 +692,12 @@ TextureImporter:
       name: RedShirt_27
       rect:
         serializedVersion: 2
-        x: 47
+        x: 48
         y: 68
-        width: 10
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 7}
@@ -711,12 +711,12 @@ TextureImporter:
       name: RedShirt_28
       rect:
         serializedVersion: 2
-        x: 61
+        x: 62
         y: 68
-        width: 12
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7}
@@ -729,12 +729,12 @@ TextureImporter:
       name: RedShirt_29
       rect:
         serializedVersion: 2
-        x: 76
-        y: 69
-        width: 11
-        height: 14
+        x: 78
+        y: 68
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7}
@@ -747,12 +747,12 @@ TextureImporter:
       name: RedShirt_30
       rect:
         serializedVersion: 2
-        x: 91
+        x: 93
         y: 68
-        width: 12
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7}
@@ -765,12 +765,12 @@ TextureImporter:
       name: RedShirt_31
       rect:
         serializedVersion: 2
-        x: 105
+        x: 108
         y: 68
-        width: 14
-        height: 14
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -7, y: 7}
@@ -784,12 +784,12 @@ TextureImporter:
       name: RedShirt_32
       rect:
         serializedVersion: 2
-        x: 2
-        y: 53
-        width: 12
+        x: 3
+        y: 54
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7.5}
@@ -803,12 +803,12 @@ TextureImporter:
       name: RedShirt_33
       rect:
         serializedVersion: 2
-        x: 17
-        y: 53
-        width: 11
+        x: 18
+        y: 54
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 3.5, y: 7.5}
@@ -824,12 +824,12 @@ TextureImporter:
       name: RedShirt_34
       rect:
         serializedVersion: 2
-        x: 31
-        y: 52
-        width: 11
+        x: 33
+        y: 54
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5.5, y: 7.5}
@@ -843,12 +843,12 @@ TextureImporter:
       name: RedShirt_35
       rect:
         serializedVersion: 2
-        x: 47
-        y: 52
-        width: 12
+        x: 48
+        y: 53
+        width: 9
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -6, y: 7.5}
@@ -865,11 +865,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 62
-        y: 51
-        width: 10
-        height: 16
+        y: 53
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 8}
@@ -884,11 +884,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 51
-        width: 10
-        height: 17
+        y: 53
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 8.5}
@@ -903,12 +903,12 @@ TextureImporter:
       name: RedShirt_38
       rect:
         serializedVersion: 2
-        x: 94
+        x: 93
         y: 53
         width: 9
-        height: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7}
@@ -922,11 +922,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 54
+        y: 53
         width: 9
-        height: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4.5, y: 7}
