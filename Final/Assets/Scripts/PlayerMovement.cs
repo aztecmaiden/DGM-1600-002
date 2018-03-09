@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     private Animator anim;
     private SpriteRenderer rend;
+    public float jump;
+    private bool isGrounded;
 
 
 	// Use this for initialization
@@ -30,8 +32,7 @@ public class PlayerMovement : MonoBehaviour {
             //flip sprite renderer
             rend.flipX = true;
         }
-        else if (Input.GetAxisRaw("Horizontal") > 0.1f);
-        {
+        else if (Input.GetAxisRaw("Horizontal") > 0.1f){
             //unflip
             rend.flipX = false;
         }
@@ -40,5 +41,25 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetTrigger("ShootGo");
 
         }
+        if (isGrounded && Input.GetButtonDown("Jump"))
+        {
+            rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
+        }
+
 	}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Ground")
+        {
+            isGrounded = false;
+        }
+    }
 }
