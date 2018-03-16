@@ -545,7 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   textObject: {fileID: 359870395}
-  titleObject: {fileID: 0}
+  titleObject: {fileID: 472128468}
 --- !u!1 &1212255043
 GameObject:
   m_ObjectHideFlags: 0

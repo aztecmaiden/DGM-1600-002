@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 74dd779c3f7dc4c41845626df237ded8
+timeCreated: 1517243882
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BIRTH OF A HERO
+  fontNames:
+  - BIRTH OF A HERO
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
