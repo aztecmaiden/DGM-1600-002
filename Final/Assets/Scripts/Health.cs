@@ -6,6 +6,8 @@ public class Health : MonoBehaviour {
 
     public int health;
     public ParticleSystem deathParticle;
+    public Sprite live;
+    public Sprite death;
 
 
 
