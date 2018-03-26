@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour {
     public float jump;
     private bool isGrounded;
     public Vector3 offset;
+    public LayerMask groundlayer;
+    public float shootDistance;
+    private bool lookLeft;
 
 
 
@@ -33,14 +36,17 @@ public class PlayerMovement : MonoBehaviour {
         {
             //flip sprite renderer
             rend.flipX = true;
+            lookLeft = true;
         }
         else if (Input.GetAxisRaw("Horizontal") > 0.1f) {
             //unflip
             rend.flipX = false;
+            lookLeft = false;
         }
         if (Input.GetButton("Fire1"))
         {
             anim.SetTrigger("ShootGo");
+            Shoot();
 
         }
         if (Input.GetButtonDown("Jump"))
@@ -59,29 +65,57 @@ public class PlayerMovement : MonoBehaviour {
                     Debug.Log("no ground");
                 }
             }
-
-            if (isGrounded) {
-                rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
-            }
         }
     }
-    void OnCollisionEnter2D(Collision2D collision)
+    bool IsGrounded()
     {
-        if (collision.transform.tag == "Ground")
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 0.5f;
+
+        Debug.DrawRay(position, direction, Color.green, 0.25f);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundlayer);
+        if (hit.collider != null) {
+            return true;
+        }
+    }
+    void Shoot()
+    {
+        Vector2 position = transform.position;
+        // figure out direction
+        Vector2 direction;
+        if (lookLeft)
         {
-            isGrounded = true;
+            direction = Vector2.left;
+        }
+        else
+            {
+            direction = Vector2.right;
+             }
+        }
+        Debug.DrawRay(position, direction, Color.red, 0.25f);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
+        if (hit.collider != null){
+            //deal damage
         }
     }
-
-    void OnCollisionExit2D(Collision2D collision)
+void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.transform.tag == "Ground")
     {
-        if (collision.transform.tag == "Ground")
-        {
-            isGrounded = false;
-        }
-    }
-    public void ExampleDealDamage()
-    {
-
+        isGrounded = true;
     }
 }
+
+void OnCollisionExit2D(Collision2D collision)
+{
+    if (collision.transform.tag == "Ground")
+    {
+        isGrounded = false;
+    }
+}
+public void ExampleDealDamage()
+{
+
+}
+
