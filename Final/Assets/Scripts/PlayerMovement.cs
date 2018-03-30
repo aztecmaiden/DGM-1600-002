@@ -4,7 +4,8 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour
+{
 
     private Rigidbody2D rigid;
     public float speed;
@@ -20,14 +21,16 @@ public class PlayerMovement : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
         //check for button pushes
 
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
@@ -38,7 +41,8 @@ public class PlayerMovement : MonoBehaviour {
             rend.flipX = true;
             lookLeft = true;
         }
-        else if (Input.GetAxisRaw("Horizontal") > 0.1f) {
+        else if (Input.GetAxisRaw("Horizontal") > 0.1f)
+        {
             //unflip
             rend.flipX = false;
             lookLeft = false;
@@ -75,7 +79,8 @@ public class PlayerMovement : MonoBehaviour {
 
         Debug.DrawRay(position, direction, Color.green, 0.25f);
         RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundlayer);
-        if (hit.collider != null) {
+        if (hit.collider != null)
+        {
             return true;
         }
     }
@@ -89,33 +94,35 @@ public class PlayerMovement : MonoBehaviour {
             direction = Vector2.left;
         }
         else
-            {
+        {
             direction = Vector2.right;
-             }
         }
         Debug.DrawRay(position, direction, Color.red, 0.25f);
         RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
-        if (hit.collider != null){
+        if (hit.collider != null)
+        {
             //deal damage
         }
     }
-void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.transform.tag == "Ground")
-    {
-        isGrounded = true;
-    }
-}
 
-void OnCollisionExit2D(Collision2D collision)
-{
-    if (collision.transform.tag == "Ground")
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = false;
+        if (collision.transform.tag == "Ground")
+        {
+            isGrounded = true;
+        }
     }
-}
-public void ExampleDealDamage()
-{
 
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Ground")
+        {
+            isGrounded = false;
+        }
+    }
+    public void ExampleDealDamage()
+    {
+
+    }
 }
 

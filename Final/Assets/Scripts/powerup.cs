@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class powerup : MonoBehaviour {
 
-    public enum Power { Health, Speed};
+    public enum Power { Health, Speed, Damage, Poison};
     public Power powerupType;
     private SpriteRenderer rend;
     public Sprite[] images;
@@ -29,7 +29,29 @@ public class powerup : MonoBehaviour {
             case Power.Speed:
                 rend.sprite = images[1];
                 break;
-         }
+            case Power.Damage:
+                rend.sprite = images[1];
+                break;
+            case Power.Poison:
+                rend.sprite = images[1];
+                break;
+        }
 		
 	}
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        switch (powerupType)
+        {
+            case Power.Health:
+                collider.GetComponent<Health>().IncrementHealth(5);
+                break;
+            case Power.Speed:
+                break;
+            case Power.Damage:
+                break;
+            case Power.Poison:
+                break;
+        }
+        Destroy(gameObject);
+    }
 }
