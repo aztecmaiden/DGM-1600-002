@@ -8,7 +8,8 @@ public class powerup : MonoBehaviour {
     public Power powerupType;
     private SpriteRenderer rend;
     public Sprite[] images;
-
+    public Animator animator;
+    public Animation[] graphics;
 
 
 

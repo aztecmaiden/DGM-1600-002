@@ -14,12 +14,13 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     private bool isGrounded;
     public LayerMask groundLayer;
+    [Space(20)]
     public float shootDistance;
+    public float minDistance;
+    public float maxDistance;
     private bool lookLeft;
     public Vector3 offset;
-    public LayerMask groundlayer;
-    public float shootDistance;
-    private bool lookLeft;
+
 
 
 
@@ -81,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         float distance = 0.5f;
 
         Debug.DrawRay(position, direction, Color.green, 0.25f);
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundlayer);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
         if (hit.collider != null)
         {
             return true;
@@ -95,19 +96,27 @@ public class PlayerMovement : MonoBehaviour
         if (lookLeft)
         {
             direction = Vector2.left;
+            //if we're looking left, modify position
+            position += new Vector2(-0.5f, 0);
         }
+        //or shift it right
         else
         {
             direction = Vector2.right;
-        }
-        Debug.DrawRay(position, direction, Color.red, 0.25f);
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
-        if (hit.collider != null)
-        {
-            //deal damage
+            position += new Vector2(0.5f, 0);
+
+            Debug.DrawRay(position, direction, Color.red, 0.25f);
+            RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
+            if (hit.collider != null)
+            {
+                Debug.Log(hit.collider.name);
+                if (hit.collider.GetComponent<Health>())
+                {
+                    hit.collider.GetComponent<Health>().(IncrementHealth(-1));
+                }
+            }
         }
     }
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "Ground")

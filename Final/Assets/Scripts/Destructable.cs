@@ -23,7 +23,7 @@ public class Destructable : MonoBehaviour {
         {
             //die
             //play death particle
-            Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
+            ParticleSystem particle= Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
