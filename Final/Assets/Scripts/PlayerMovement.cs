@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour {
     private SpriteRenderer rend;
     public float jump;
     private bool isGrounded;
+    public LayerMask groundLayer;
+    public float shootDistance;
+    private bool lookLeft;
     public Vector3 offset;
 
 
