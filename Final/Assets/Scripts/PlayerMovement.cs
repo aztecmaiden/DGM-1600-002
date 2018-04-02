@@ -4,7 +4,8 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour
+{
 
     private Rigidbody2D rigid;
     public float speed;
@@ -16,18 +17,23 @@ public class PlayerMovement : MonoBehaviour {
     public float shootDistance;
     private bool lookLeft;
     public Vector3 offset;
+    public LayerMask groundlayer;
+    public float shootDistance;
+    private bool lookLeft;
 
 
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
         //check for button pushes
 
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
@@ -36,14 +42,18 @@ public class PlayerMovement : MonoBehaviour {
         {
             //flip sprite renderer
             rend.flipX = true;
+            lookLeft = true;
         }
-        else if (Input.GetAxisRaw("Horizontal") > 0.1f) {
+        else if (Input.GetAxisRaw("Horizontal") > 0.1f)
+        {
             //unflip
             rend.flipX = false;
+            lookLeft = false;
         }
         if (Input.GetButton("Fire1"))
         {
             anim.SetTrigger("ShootGo");
+            Shoot();
 
         }
         if (Input.GetButtonDown("Jump"))
@@ -62,12 +72,42 @@ public class PlayerMovement : MonoBehaviour {
                     Debug.Log("no ground");
                 }
             }
-
-            if (isGrounded) {
-                rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
-            }
         }
     }
+    bool IsGrounded()
+    {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 0.5f;
+
+        Debug.DrawRay(position, direction, Color.green, 0.25f);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundlayer);
+        if (hit.collider != null)
+        {
+            return true;
+        }
+    }
+    void Shoot()
+    {
+        Vector2 position = transform.position;
+        // figure out direction
+        Vector2 direction;
+        if (lookLeft)
+        {
+            direction = Vector2.left;
+        }
+        else
+        {
+            direction = Vector2.right;
+        }
+        Debug.DrawRay(position, direction, Color.red, 0.25f);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
+        if (hit.collider != null)
+        {
+            //deal damage
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "Ground")
@@ -88,3 +128,4 @@ public class PlayerMovement : MonoBehaviour {
 
     }
 }
+
