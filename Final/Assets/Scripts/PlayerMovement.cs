@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(CapsuleCollider2D))]
 public class PlayerMovement : MonoBehaviour
 {
-
+    
     private Rigidbody2D rigid;
     public float speed;
     private Animator anim;

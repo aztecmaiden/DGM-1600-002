@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212420058088782790}
   - component: {fileID: 95127645228675424}
   m_Layer: 0
-  m_Name: Turquoise Front
+  m_Name: Turquoise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
