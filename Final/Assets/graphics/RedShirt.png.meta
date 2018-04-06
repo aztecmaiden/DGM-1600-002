@@ -1,11 +1,11 @@
 fileFormatVersion: 2
 guid: b513a11f36dc0ef4498ff1317ad60a24
-timeCreated: 1520441320
+timeCreated: 1523030268
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: RedShirt_0
-    21300002: RedShirt_1
+    21300002: Player_Stand
     21300004: RedShirt_2
     21300006: RedShirt_3
     21300008: RedShirt_4
@@ -20,14 +20,14 @@ TextureImporter:
     21300026: RedShirt_13
     21300028: RedShirt_14
     21300030: RedShirt_15
-    21300032: RedSide_01
-    21300034: RedSide_02
-    21300036: RedSide_03
-    21300038: RedSide_04
-    21300040: RedSide_05
-    21300042: RedSide_06
-    21300044: RedSide_07
-    21300046: RedSide_08
+    21300032: PlayerWalk1
+    21300034: PlayerWalk2
+    21300036: PlayerWalk3
+    21300038: PlayerWalk4
+    21300040: PlayerWalk5
+    21300042: PlayerWalk6
+    21300044: PlayerWalk7
+    21300046: PlayerWalk8
     21300048: RedShirt_24
     21300050: RedShirt_25
     21300052: RedShirt_26
@@ -167,7 +167,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_1
+      name: Player_Stand
       rect:
         serializedVersion: 2
         x: 3
@@ -474,7 +474,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_01
+      name: PlayerWalk1
       rect:
         serializedVersion: 2
         x: 3
@@ -493,7 +493,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_02
+      name: PlayerWalk2
       rect:
         serializedVersion: 2
         x: 18
@@ -513,7 +513,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_03
+      name: PlayerWalk3
       rect:
         serializedVersion: 2
         x: 33
@@ -532,7 +532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_04
+      name: PlayerWalk4
       rect:
         serializedVersion: 2
         x: 48
@@ -553,7 +553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_05
+      name: PlayerWalk5
       rect:
         serializedVersion: 2
         x: 62
@@ -573,7 +573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_06
+      name: PlayerWalk6
       rect:
         serializedVersion: 2
         x: 78
@@ -593,7 +593,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_07
+      name: PlayerWalk7
       rect:
         serializedVersion: 2
         x: 93
@@ -612,7 +612,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedSide_08
+      name: PlayerWalk8
       rect:
         serializedVersion: 2
         x: 108
