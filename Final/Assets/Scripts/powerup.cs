@@ -37,6 +37,8 @@ public class powerup : MonoBehaviour {
                 rend.sprite = images[1];
                 break;
         }
+
+        
 		
 	}
     private void OnTriggerEnter2D(Collider2D collider)
