@@ -15,7 +15,7 @@ public class LeveltoLoad : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collider.GetComponent<PlayerMovement>())
+        if (GetComponent<PlayerMovement>())
         {
             //Game Over
             Debug.Log("GameOver");
