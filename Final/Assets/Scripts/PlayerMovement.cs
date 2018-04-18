@@ -14,16 +14,8 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     private bool isGrounded;
     public LayerMask groundLayer;
-
-    [Space(20)]
-    public float shootDistance;
-    public float minDistance;
-    public float maxDistance;
+    private Shoveling shoveling;
     private bool lookLeft;
-    public Vector3 offset;
-    public Color shootColor;
-    private LineRenderer lineRenderer;
-    public float shootTime;
 
 
 
@@ -34,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
-        lineRenderer = GetComponent<LineRenderer>();
+        shoveling = GetComponent<Shoveling>();
     }
 
     // Update is called once per frame
@@ -44,7 +36,13 @@ public class PlayerMovement : MonoBehaviour
 
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
         anim.SetFloat("HorizontalGo", Input.GetAxisRaw("Horizontal"));
-        if (Input.GetAxisRaw("Horizontal") > -0.1f)
+        if (Input.GetButton("Fire1"))
+        {
+            anim.SetTrigger("ShootGo");
+            shoveling.Shoot();
+
+        }
+        if (Input.GetAxisRaw("Horizontal") < -0.1f)
         {
             //flip sprite renderer
             rend.flipX = true;
@@ -55,12 +53,6 @@ public class PlayerMovement : MonoBehaviour
             //unflip
             rend.flipX = false;
             lookLeft = false;
-        }
-        if (Input.GetButton("Fire1"))
-        {
-            anim.SetTrigger("ShootGo");
-            Shoot();
-
         }
         if (Input.GetButtonDown("Jump"))
         {
@@ -95,50 +87,6 @@ public class PlayerMovement : MonoBehaviour
 
         return false;
     }
-    void Shoot()
-    {
-        Vector2 position = transform.position;
-        // figure out direction
-        Vector2 direction;
-        if (lookLeft)
-        {
-            direction = Vector2.left;
-            //if we're looking left, modify position
-            position += new Vector2(-0.5f, 0);
-            lineRenderer.SetPosition(0, new Vector3(-0.5f, 0, 0));
-            lineRenderer.SetPosition(1, new Vector3(-10.5f, 0, 0));
-        }
-        //or shift it right
-        else
-        {
-            direction = Vector2.right;
-            position += new Vector2(0.5f, 0);
-            lineRenderer.SetPosition(0, new Vector3(0.5f, 0, 0));
-            lineRenderer.SetPosition(1, new Vector3(10.5f, 0, 0));
-
-            Debug.DrawRay(position, direction, Color.red, 0.25f);
-            lineRenderer.enabled = true;
-            RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
-            if (hit.collider != null)
-            {
-                Debug.Log(hit.collider.name);
-                if (hit.collider.GetComponent<Health>())
-                {
-                 hit.collider.GetComponent<Health>().IncrementHealth(-1);
-                }
-            }
-        }
-        StartCoroutine(LaserOff());
-    }
-
-    IEnumerator LaserOff()
-    {
-        yield return new WaitForSeconds(shootTime);
-        lineRenderer.enabled = false;
-    }
-
-
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "Ground")

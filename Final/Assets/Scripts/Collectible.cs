@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour {
 
+    [Range(1,50)]
     public int value;
     public Color colorTint;
     private GameObject manager;
@@ -13,14 +14,16 @@ public class Collectible : MonoBehaviour {
     {
         myManager = FindObjectOfType<Manager>().GetComponent<Manager>();
     }
-    
+
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        myManager.IncrementScore(value);
-        Destroy(gameObject);
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            myManager.IncrementScore(value);
+            Destroy(gameObject);
+        }
     }
-
 
 
 }

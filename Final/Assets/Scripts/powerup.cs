@@ -43,18 +43,21 @@ public class powerup : MonoBehaviour {
 	}
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        switch (powerupType)
+        if (collider.gameObject.CompareTag("Player"))
         {
-            case Power.Health:
-                collider.GetComponent<Health>().IncrementHealth(5);
-                break;
-            case Power.Speed:
-                break;
-            case Power.Damage:
-                break;
-            case Power.Poison:
-                break;
+            switch (powerupType)
+            {
+                case Power.Health:
+                    collider.GetComponent<Health>().IncrementHealth(5);
+                    break;
+                case Power.Speed:
+                    break;
+                case Power.Damage:
+                    break;
+                case Power.Poison:
+                    break;
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 }
