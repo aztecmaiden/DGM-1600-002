@@ -27,6 +27,10 @@ public class Manager : MonoBehaviour {
     public void IncrementScore(int value)
     {
         score += value;
+        if(scoreboard == null)
+        {
+            scoreboard = GameObject.Find("Score").gameObject.GetComponent<Text>();
+        }
         scoreboard.text = score.ToString();
     }
 
