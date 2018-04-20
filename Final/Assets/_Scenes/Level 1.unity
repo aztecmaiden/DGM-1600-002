@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4be64f2724c8e4084195d9df91d1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1
   colorTint: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &584119081
 Prefab:
@@ -570,6 +570,7 @@ GameObject:
   - component: {fileID: 1070259050}
   - component: {fileID: 1070259049}
   - component: {fileID: 1070259051}
+  - component: {fileID: 1070259052}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -650,6 +651,21 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &1070259052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1070259047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e2d80fece35284883b01bbf233cb92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreboard: {fileID: 1070259049}
+  levelDisplay: {fileID: 0}
+  livesDisplay: {fileID: 0}
+  lives: 0
 --- !u!1 &1109789662
 GameObject:
   m_ObjectHideFlags: 0
