@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour {
 
     private void Start()
     {
-        GetComponent<Rigidbody2D>();
+        GetComponent<Rigidbody2D>().AddForce(startVector, ForceMode2D.Force);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

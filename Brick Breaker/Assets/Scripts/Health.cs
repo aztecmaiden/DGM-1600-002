@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     {
         GameManager.brickCount++;
         print(GameManager.brickCount);
-        GetComponent<SpriteRenderer>().sprite = sprite[health];
+        GetComponent<SpriteRenderer>().sprite = sprite[0];
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
