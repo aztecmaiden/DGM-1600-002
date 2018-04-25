@@ -9,11 +9,13 @@ using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour {
 
     private static Manager instance = null;
-    public Text scoreboard;
     private int score;
     public Text levelDisplay;
     public Text livesDisplay;
+    public Text scoreboard;
+    public Text Timer;
     public int lives;
+   
 
     public void Awake()
     {
@@ -45,4 +47,8 @@ public class Manager : MonoBehaviour {
         Debug.Log("Application.Quit");
     }
 
+
+
+
 }
+
