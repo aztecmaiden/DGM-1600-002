@@ -174,7 +174,11 @@ public class Adventure : MonoBehaviour {
     }
     private void Reaper()
     {
+<<<<<<< Updated upstream
         titleObject.text = "Keeper of the Reaper";
+=======
+        titleObject.text = "Wait, What?";
+>>>>>>> Stashed changes
         textObject.text = "A skeletal figure wearing a black hood?! \n" +
                "Jiminy Jaminy! It's the Grim Reaper. \n" +
                "Each of them weeping and wearing black.  \n" +
@@ -188,6 +192,7 @@ public class Adventure : MonoBehaviour {
     }
     private void FightReaper()
     {
+<<<<<<< Updated upstream
         titleObject.text = "Fight! Fight! Fight!";
         textObject.text = "Filled with anger and rage you rush at him, \n" +
            "with your fists raised ready for a brawl. \n" +
@@ -197,6 +202,15 @@ public class Adventure : MonoBehaviour {
 
            "You have royally messed up. \n \n " +
            "Press L to continue";
+=======
+        titleObject.text = "What?";
+        textObject.text = "Filled with anger and rage you rush at him, \n" +
+           "with your fists raised ready for a brawl. \n" +
+
+           "But it's the Grim Reaper, and you can't beat death. \n" +
+           "Not Literally or Metaphorically. \n" +
+           "Press L to Continue.";
+>>>>>>> Stashed changes
     if (Input.GetKeyDown(KeyCode.L)) { currentState = States.lose; }
     }
     private void EmotionalMoment()
@@ -233,6 +247,7 @@ public class Adventure : MonoBehaviour {
     }
     private void SayNo()
     {
+<<<<<<< Updated upstream
         titleObject.text = "Say Not to This";
         textObject.text = "You decide to not take the offer. \n" +
                "This weirdo is giving you a weird vibe. \n" +
@@ -259,6 +274,10 @@ public class Adventure : MonoBehaviour {
     {
         titleObject.text = "You Lose.";
         textObject.text = "You Died but then again can Ghosts even die? \n \n" +
+=======
+        titleObject.text = "You Lose.";
+        textObject.text = "You Died but then again can Ghosts even die?/n" +
+>>>>>>> Stashed changes
 
 
             "Press C to Play again";

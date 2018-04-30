@@ -1220,7 +1220,7 @@ Prefab:
     - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
         type: 2}
       propertyPath: m_Simulated
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 58573463021872254, guid: 93553e5a6ae44544e983471a3f162426,
         type: 2}
@@ -1240,7 +1240,7 @@ Prefab:
         type: 2}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: 2d582ba2feb835c4cacb4a8c893163c6, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 50243338791091178, guid: 93553e5a6ae44544e983471a3f162426,
         type: 2}
       propertyPath: m_AngularDrag
@@ -4883,7 +4883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb06cc90d4d41e4097520484543fb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoPlay: 1
+  autoPlay: 0
 --- !u!1001 &2007303515
 Prefab:
   m_ObjectHideFlags: 0
