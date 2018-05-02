@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour {
 
     public int health;
     public ParticleSystem deathParticle;
     private Container container = null;
+    public Text playerHealth;
 
     private void Start()
     {

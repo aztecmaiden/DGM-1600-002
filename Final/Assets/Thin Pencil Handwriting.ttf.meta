@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b8a42f0ab35c4b54a9afbba27ec17338
+timeCreated: 1525256458
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Thin Pencil Handwriting
+  fontNames:
+  - Thin Pencil Handwriting
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7773420eb619e8042b2a4d26d74d76d4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
