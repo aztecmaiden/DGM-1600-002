@@ -23,6 +23,9 @@ public class Manager : MonoBehaviour {
         {
             instance = this.gameObject.GetComponent<Manager>();
         }
+        else {
+            Destroy(this.gameObject);
+         }
         DontDestroyOnLoad(gameObject);
     }
 

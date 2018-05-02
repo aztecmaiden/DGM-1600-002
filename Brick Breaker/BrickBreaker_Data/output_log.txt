@@ -1,0 +1,242 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     3168 MB
+    Driver:   22.20.16.4836
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Brick Breaker\BrickBreaker_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.587 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.221095 ms
+Audio source is playing an ambisonic audio clip, but an ambisonic decoder could not be created successfully. Make sure an ambisonic decoder is selected in the audio settings.
+ 
+(Filename:  Line: 1111)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.819743 ms
+Audio source is playing an ambisonic audio clip, but an ambisonic decoder could not be created successfully. Make sure an ambisonic decoder is selected in the audio settings.
+ 
+(Filename:  Line: 1111)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+17
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+18
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+19
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 423.
+Total: 0.408164 ms (FindLiveObjects: 0.064943 ms CreateObjectMapping: 0.015480 ms MarkObjects: 0.274501 ms  DeleteObjects: 0.051728 ms)
+
+GameOver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.372671 ms
+Audio source is playing an ambisonic audio clip, but an ambisonic decoder could not be created successfully. Make sure an ambisonic decoder is selected in the audio settings.
+ 
+(Filename:  Line: 1111)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 329.
+Total: 0.535031 ms (FindLiveObjects: 0.027940 ms CreateObjectMapping: 0.016235 ms MarkObjects: 0.277144 ms  DeleteObjects: 0.212955 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.422512 ms
+Audio source is playing an ambisonic audio clip, but an ambisonic decoder could not be created successfully. Make sure an ambisonic decoder is selected in the audio settings.
+ 
+(Filename:  Line: 1111)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+17
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+18
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+19
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 423.
+Total: 0.317167 ms (FindLiveObjects: 0.041911 ms CreateObjectMapping: 0.019634 ms MarkObjects: 0.231456 ms  DeleteObjects: 0.023032 ms)
+
+GameOver
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.151620 ms
+Audio source is playing an ambisonic audio clip, but an ambisonic decoder could not be created successfully. Make sure an ambisonic decoder is selected in the audio settings.
+ 
+(Filename:  Line: 1111)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 329.
+Total: 0.977555 ms (FindLiveObjects: 0.127622 ms CreateObjectMapping: 0.048707 ms MarkObjects: 0.673981 ms  DeleteObjects: 0.126111 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 30cc -> priority: 1 
+  Thread -> id: 2078 -> priority: 1 

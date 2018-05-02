@@ -14,10 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
     private bool isGrounded;
     public LayerMask groundLayer;
-    private Shoveling shoveling;
-    private bool lookLeft;
-
-
+    
 
 
     // Use this for initialization
@@ -26,8 +23,7 @@ public class PlayerMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
-        shoveling = GetComponent<Shoveling>();
-    }
+           }
 
     // Update is called once per frame
     void Update()
@@ -36,23 +32,21 @@ public class PlayerMovement : MonoBehaviour
 
         rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0), ForceMode2D.Force);
         anim.SetFloat("HorizontalGo", Input.GetAxisRaw("Horizontal"));
-        if (Input.GetButton("Fire1"))
-        {
-            anim.SetTrigger("ShootGo");
-            shoveling.Shoot();
 
-        }
         if (Input.GetAxisRaw("Horizontal") < -0.1f)
         {
             //flip sprite renderer
             rend.flipX = true;
-            lookLeft = true;
+            
         }
         else if (Input.GetAxisRaw("Horizontal") > 0.1f)
         {
             //unflip
             rend.flipX = false;
-            lookLeft = false;
+        }
+        if (isGrounded && Input.GetButtonDown("Jump"))
+        {
+            rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
         }
         if (Input.GetButtonDown("Jump"))
         {
@@ -62,13 +56,17 @@ public class PlayerMovement : MonoBehaviour
                 if (hit.collider.tag == "Ground")
                 {
                     isGrounded = true;
-                    Debug.Log("found ground");
+                    Debug.Log(hit.collider.tag);
                 }
                 else
                 {
                     isGrounded = false;
-                    Debug.Log("no ground");
+                    Debug.Log(hit.collider.tag);
                 }
+            }
+            if (IsGrounded())
+            {
+                rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
             }
         }
     }
@@ -76,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 position = transform.position;
         Vector2 direction = Vector2.down;
-        float distance = 0.5f;
+        float distance = 1.0f;
 
         Debug.DrawRay(position, direction, Color.green, 0.25f);
         RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);

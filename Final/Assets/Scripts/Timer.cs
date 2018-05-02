@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Timer : MonoBehaviour {
 
@@ -17,7 +19,7 @@ public class Timer : MonoBehaviour {
         timer.text = "Time Left:" + Mathf.Round(timeLeft);
         if (timeLeft < 0)
         {
-            Application.LoadLevel("GameOver");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

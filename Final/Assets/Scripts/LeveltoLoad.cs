@@ -2,23 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeveltoLoad : MonoBehaviour {
+public class LeveltoLoad : MonoBehaviour
+{
 
+    private Manager manager;
     public string level;
-    public Manager manager;
-
 
     private void Start()
     {
         manager = GameObject.Find("Manager").GetComponent<Manager>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (GetComponent<PlayerMovement>())
-        {
-            //Game Over
-            Debug.Log("GameOver");
+        if (collider.GetComponent<PlayerMovement>())
+        {        
             manager.LoadLevel(level);
         }
     }
