@@ -10,10 +10,8 @@ public class Manager : MonoBehaviour {
 
     private static Manager instance = null;
     private int score;
-    public Text levelDisplay;
-    public Text livesDisplay;
+    public Text levelDisplay;    
     public Text scoreboard;
-    public Text Timer;
     public int lives;
    
 
