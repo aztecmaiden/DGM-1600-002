@@ -138,3 +138,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DealDamage
 b487f15efff2e1fb698ecba235ff77a8 Assembly-CSharp.dll:.Manager
 481c438971a1e29ace068582565424d6 Assembly-CSharp.dll:.Collectible
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MusicManager

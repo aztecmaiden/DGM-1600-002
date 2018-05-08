@@ -19,7 +19,7 @@ Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Final\Final_
 Loading C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Final\Final_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Final\Final_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Estephany's Laptop\Desktop\DGM-1600-002\Final\Final_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.303 seconds
+- Completed reload, in  0.332 seconds
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
